@@ -5,7 +5,7 @@
   "homepage": "https://the3bemporium.com",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp CNAME dist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
