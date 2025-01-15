@@ -5,7 +5,7 @@
   "homepage": "https://the3bemporium.com",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp CNAME dist",
+    "build": "vite build && copy CNAME dist",
     "copy-cname": "copy CNAME dist", 
     "copy-cname-unix": "cp CNAME dist",
     "predeploy": "npm-run-all build copy-cname",
